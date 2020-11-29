@@ -19,3 +19,14 @@ The website is responsive but the UI is the worst I have ever seen:
   - Adding media query for small screen optmization
 
 #### Time : 45 mins
+
+<hr>
+
+### Quiz App
+
+The website is responsive but can use some tweaks:
+
+- Responsiveness
+  - Adding media query for small screen optmization
+
+#### Time : 60 mins
