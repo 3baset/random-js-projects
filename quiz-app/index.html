@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -14,19 +14,18 @@
                 <h1 id="question">Q</h1>
             </div>
             <div class="answers">
-                <input type="radio" name="a_a" tag="a_a">
+                <input class="radio_btn" type="radio" name="a" >
                 <label class= "answer" id="a_a">answer a</label>
-                <input type="radio" name="a_b" tag="a_b">
+                <input class="radio_btn" type="radio" name="a" >
                 <label class= "answer" id="a_b">answer b</label>
-                <input type="radio" name="a_c" tag="a_c">
+                <input class="radio_btn" type="radio" name="a" >
                 <label class= "answer" id="a_c">answer c</label>
-                <input type="radio" name="a_d" tag="a_d">
+                <input class="radio_btn" type="radio" name="a" >
                 <label class= "answer" id="a_d">answer d</label>
             </div>
         </div>
-        <div>
-            <button class="submit_button" type="submit">Submit</button>
-        </div>
+        <button id="submit_button" type="submit">Submit</button>
+        
     </div>
 </body>
 </html>

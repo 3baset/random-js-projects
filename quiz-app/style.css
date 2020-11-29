@@ -22,14 +22,18 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  flex-shrink: inherit;
+  width: 600px;
+  max-width: 100%;
 }
 .heading {
   margin-bottom: 2rem;
+  margin-left: -7rem;
+  margin-right: -5rem;
+  text-align: center;
 }
 .answers {
   display: grid;
-  grid-template-columns: 0.5fr 1.5fr;
+  grid-template-columns: 0.2fr 1.8fr;
   margin-left: -7rem;
 }
 
@@ -47,18 +51,23 @@ body {
 
 .answer {
   margin-bottom: 1rem;
+  font-size: 1.2em;
 }
 
-.submit_button {
-  padding: 1rem 9.25rem;
+#submit_button {
   border-radius: 5px;
   font-size: 1rem;
-  border-style: none;
+  border: none;
   background-color: rgb(7, 125, 204);
   color: white;
+  display: block;
+  font-size: 1.1rem;
+  padding: 1.3rem;
+  width: 600px;
+  max-width: 100%;
 }
 
-.submit_button:hover {
+#submit_button:hover {
   background-color: rgb(5, 94, 153);
   cursor: pointer;
 }
