@@ -33,6 +33,22 @@ body {
   margin-left: -7rem;
 }
 
+.answers input {
+  height: 1rem;
+  width: 2rem;
+}
+
+.answers input:hover {
+  cursor: pointer;
+  background-color: rgb(7, 125, 204);
+  height: 1.2rem;
+  width: 2rem;
+}
+
+.answer {
+  margin-bottom: 1rem;
+}
+
 .submit_button {
   padding: 1rem 9.25rem;
   border-radius: 5px;
@@ -40,4 +56,9 @@ body {
   border-style: none;
   background-color: rgb(7, 125, 204);
   color: white;
+}
+
+.submit_button:hover {
+  background-color: rgb(5, 94, 153);
+  cursor: pointer;
 }
